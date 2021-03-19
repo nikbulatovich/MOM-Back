@@ -1,5 +1,20 @@
+const SAFE_DEFAULT_PGDATABASE = 'momsovermatter';
+const SAFE_DEFAULT_PGUSER = 'mom-application';
+
+const config = {
+  host: process.env.PGHOST,
+  database: process.env.PGDATABASE || SAFE_DEFAULT_PGDATABASE,
+  user: process.env.PGUSER || SAFE_DEFAULT_PGUSER,
+  password: process.env.PGPASSWORD,
+  // this object will be passed to the TLSSocket constructor
+  ssl: {
+    rejectUnauthorized: false,
+    ca: fs.readFileSync('./ca-certificate.crt').toString(),
+  },
+}
+
 const { Pool } = require('pg')
-const pool = new Pool()
+const pool = new Pool(config)
 
 const createTables = () => {
   pool.query(`
