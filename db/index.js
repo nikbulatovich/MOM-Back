@@ -1,6 +1,6 @@
 const DEFAULT_PGDATABASE = 'momsovermatter';
 const DEFAULT_PGUSER = 'mom-application';
-const DEFAULT_PGCACERT = '/var/mom/backend/db/ca-certificate.crt';
+const DEFAULT_PGCACERT = './db/ca-certificate.crt';
 
 const config = {
   host: process.env.PGHOST,
