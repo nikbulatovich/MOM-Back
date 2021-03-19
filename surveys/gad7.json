@@ -1,0 +1,158 @@
+
+{
+  "survey_name": "GAD-7 - For Anxiety",
+  "survey_description": "The GAD-7 (General Anxiety Disorder-7) is used by clinicians and scientists around the world to identify symptoms of postpartum anxiety.",
+  "time": 3,
+  "questions":[
+    {
+      "question": "Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge?",
+      "options": [
+        {
+          "description": "Not at all sure",
+          "score": 0
+        },
+        {
+          "description": "Several days",
+          "score": 1
+        },
+        {
+          "description": "Over half the days",
+          "score": 2
+        },
+        {
+          "description": "Nearly every day",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "question": "Over the last 2 weeks, how often have you been bothered by not being able to stop or control worrying?",
+      "options": [
+        {
+          "description": "Not at all sure",
+          "score": 0
+        },
+        {
+          "description": "Several days",
+          "score": 1
+        },
+        {
+          "description": "Over half the days",
+          "score": 2
+        },
+        {
+          "description": "Nearly every day",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "question": "Over the last 2 weeks, how often have you been bothered by worrying too much about different things?",
+      "options": [
+        {
+          "description": "Not at all sure",
+          "score": 0
+        },
+        {
+          "description": "Several days",
+          "score": 1
+        },
+        {
+          "description": "Over half the days",
+          "score": 2
+        },
+        {
+          "description": "Nearly every day",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "question": "Over the last 2 weeks, how often have you been bothered by trouble relaxing?",
+      "options": [
+        {
+          "description": "Not at all sure",
+          "score": 0
+        },
+        {
+          "description": "Several days",
+          "score": 1
+        },
+        {
+          "description": "Over half the days",
+          "score": 2
+        },
+        {
+          "description": "Nearly every day",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "question": "Over the last 2 weeks, how often have you been bothered by being so restless that it's hard to sit still?",
+      "options": [
+        {
+          "description": "Not at all sure",
+          "score": 0
+        },
+        {
+          "description": "Several days",
+          "score": 1
+        },
+        {
+          "description": "Over half the days",
+          "score": 2
+        },
+        {
+          "description": "Nearly every day",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "question": "Over the last 2 weeks, how often have you been bothered by becoming easily annoyed or irritable?",
+      "options": [
+        {
+          "description": "Not at all sure",
+          "score": 0
+        },
+        {
+          "description": "Several days",
+          "score": 1
+        },
+        {
+          "description": "Over half the days",
+          "score": 2
+        },
+        {
+          "description": "Nearly every day",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "question": "Over the last 2 weeks, how often have you been bothered by feeling afraid as if something awful might happen?",
+      "options": [
+        {
+          "description": "Not at all sure",
+          "score": 0
+        },
+        {
+          "description": "Several days",
+          "score": 1
+        },
+        {
+          "description": "Over half the days",
+          "score": 2
+        },
+        {
+          "description": "Nearly every day",
+          "score": 3
+        }
+      ]
+    }
+
+  ]
+
+}
+
