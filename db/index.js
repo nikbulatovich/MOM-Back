@@ -1,15 +1,16 @@
-const SAFE_DEFAULT_PGDATABASE = 'momsovermatter';
-const SAFE_DEFAULT_PGUSER = 'mom-application';
+const DEFAULT_PGDATABASE = 'momsovermatter';
+const DEFAULT_PGUSER = 'mom-application';
+const DEFAULT_PGCACERT = '/var/mom/backend/db/ca-certificate.crt';
 
 const config = {
   host: process.env.PGHOST,
-  database: process.env.PGDATABASE || SAFE_DEFAULT_PGDATABASE,
-  user: process.env.PGUSER || SAFE_DEFAULT_PGUSER,
+  database: process.env.PGDATABASE || DEFAULT_PGDATABASE,
+  user: process.env.PGUSER || DEFAULT_PGUSER,
   password: process.env.PGPASSWORD,
   // this object will be passed to the TLSSocket constructor
   ssl: {
     rejectUnauthorized: false,
-    ca: fs.readFileSync('./ca-certificate.crt').toString(),
+    ca: fs.readFileSync(process.env.PGCACERT || DEFAULT_PGCACERT).toString(),
   },
 }
 
